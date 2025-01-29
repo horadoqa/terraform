@@ -71,4 +71,8 @@ O **Terraform** é uma das ferramentas mais poderosas e amplamente adotadas quan
 - **Ansible** é mais simples e baseado em SSH, ideal para automação de configuração e provisionamento, sem a necessidade de agentes.
 - **Puppet** e **Chef** são voltados mais para automação de configuração e gerenciamento de servidores, utilizando uma abordagem de "agentes" e "servidores".
 
+---
+
 Esse vídeo proporcionará uma visão geral útil sobre as ferramentas de IaC mais populares, com um foco especial no **Terraform**, para que os espectadores entendam as opções disponíveis e como escolher a melhor ferramenta para suas necessidades de automação de infraestrutura.
+
+---

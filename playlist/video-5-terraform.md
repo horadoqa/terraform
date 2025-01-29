@@ -95,4 +95,8 @@ O **Terraform** é uma ferramenta de **Infraestrutura como Código** (IaC) criad
 - Os conceitos principais incluem **providers** (para integração com nuvens e APIs externas), **recursos** (elementos que definem a infraestrutura), e **estado** (que mantém a sincronização entre a configuração e a infraestrutura real).
 - O Terraform executa as mudanças de infraestrutura de forma declarativa e segura, garantindo que a infraestrutura esteja sempre em conformidade com a configuração definida no código.
 
-Esse vídeo ajudará os espectadores a entender como o Terraform funciona e como ele pode ser utilizado para gerenciar de forma eficiente a infraestrutura em nuvem.
+---
+
+Neste vídeo entendemos como o Terraform funciona e como ele pode ser utilizado para gerenciar de forma eficiente a infraestrutura em nuvem.
+
+---

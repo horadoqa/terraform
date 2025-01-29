@@ -57,4 +57,8 @@ Embora ambos os conceitos envolvam a automação do gerenciamento da infraestrut
   - **Consistência**: Garante que ambientes sejam idênticos, sem discrepâncias entre desenvolvimento, testes e produção.
   - **Repetibilidade**: Facilita a criação de ambientes idênticos em qualquer lugar, quando necessário.
 
-Este vídeo ajudará o espectador a entender o que é IaC, como ela difere da automação tradicional de infraestrutura e os principais benefícios dessa abordagem para a gestão de infraestrutura moderna.
+---
+
+Neste vídeo podemos entender o que é IaC, como ela difere da automação tradicional de infraestrutura e os principais benefícios dessa abordagem para a gestão de infraestrutura moderna.
+
+---

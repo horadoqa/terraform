@@ -1,8 +1,8 @@
-- **Vídeo 6: Criando sua Primeira Infraestrutura com Terraform**
+- **Criando sua Primeira Infraestrutura com Terraform**
   - Passo a passo: configuração do Terraform, criando recursos simples na AWS (ex: instância EC2).
   - Explicação do fluxo de trabalho: escrever código, rodar `terraform plan` e `terraform apply`.
 
-### **Vídeo 6: Criando sua Primeira Infraestrutura com Terraform**
+### **Criando sua Primeira Infraestrutura com Terraform**
 
 Neste sexto vídeo da série, vamos colocar a teoria em prática e mostrar como você pode começar a usar o Terraform para criar sua primeira infraestrutura na nuvem. O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos mais comuns que você provavelmente usará com o Terraform. Vamos detalhar o passo a passo da configuração e execução, além de explicar o fluxo de trabalho que envolve escrever código, rodar os comandos `terraform plan` e `terraform apply`.
 
@@ -110,7 +110,7 @@ Neste sexto vídeo da série, vamos colocar a teoria em prática e mostrar como 
 
 ---
 
-### **Resumo do Vídeo 6: Criando sua Primeira Infraestrutura com Terraform**
+### **Resumo: Criando sua Primeira Infraestrutura com Terraform**
 
 Neste vídeo, aprendemos como criar uma instância EC2 na AWS usando o Terraform. O passo a passo incluiu:
 - **Configuração do Terraform**, incluindo credenciais e provedores.
