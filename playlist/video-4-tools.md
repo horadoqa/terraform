@@ -5,7 +5,7 @@ Vamos explorar as **ferramentas mais populares de Infraestrutura como Código (I
 #### **Visão Geral de Ferramentas Populares de IaC:**
 
 1. **Terraform**
-   - **Descrição**: O **Terraform** é uma ferramenta de IaC desenvolvida pela **HashiCorp**. Ele permite que você defina a infraestrutura desejada usando arquivos de configuração declarativos, que são então aplicados para criar, modificar ou destruir recursos na nuvem (ou em outros provedores). O Terraform é especialmente popular por sua capacidade de ser multi-nuvem e por permitir a gestão de recursos de forma declarativa.
+   - **Descrição**: O **Terraform** é uma ferramenta de IaC desenvolvida pela **HashiCorp**. Ele permite que você defina a infraestrutura desejada usando arquivos de configuração declarativos, que serão aplicados para criar, modificar ou destruir recursos na nuvem (ou em outros provedores). O Terraform é especialmente popular por sua capacidade de ser multi-nuvem e por permitir a gestão de recursos de forma declarativa.
    - **Características principais**:
      - **Declarativo**: Você define o que deseja como resultado final, e o Terraform cuida da execução e implementação dessa configuração.
      - **Multi-nuvem**: Suporta diversos provedores de nuvem como AWS, Azure, Google Cloud, entre outros, permitindo gerenciar recursos de diferentes plataformas em uma única configuração.
