@@ -1,6 +1,6 @@
 # AWS CLI
 
-Para instalar o AWS CLI no Ubuntu via WSL (Windows Subsystem for Linux), siga os passos abaixo:
+Para instalar a AWS CLI no Ubuntu via WSL (Windows Subsystem for Linux), siga os passos abaixo:
 
 ### 1. Abra o terminal WSL
 Se ainda não tiver o WSL aberto, você pode fazê-lo procurando por "Ubuntu" no menu Iniciar do Windows e abrindo o terminal.

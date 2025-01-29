@@ -1,15 +1,17 @@
+### **Criando sua Primeira Infraestrutura com Terraform**
+
+Vamos colocar a teoria em prática e mostrar como você pode começar a usar o Terraform para criar sua primeira infraestrutura na nuvem.
+
 ### **Pré-requisitos**
 
-Para seguir este tutorial você precisará:
+Para seguir este tutorial você precisará ter:
 
 - O [Terraform](./video-6-1-terraform.md) instalado.
 - A [AWSCLI](./video-6-2-awscli.md) instalada.
-- A [Conta na AWS](./video-6-3-aws.md)
-- A [Credencial](./video-6-4-awsconfigure.md)
+- A [Conta na AWS](./video-6-3-aws.md) criada.
+- A [Credencial](./video-6-4-awsconfigure.md) configurada.
 
-### **Criando sua Primeira Infraestrutura com Terraform**
-
-Vamos colocar a teoria em prática e mostrar como você pode começar a usar o Terraform para criar sua primeira infraestrutura na nuvem. O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos mais comuns que você provavelmente usará com o Terraform. Vamos detalhar o passo a passo da configuração e execução, além de explicar o fluxo de trabalho que envolve escrever código, rodar os comandos `terraform plan` e `terraform apply`.
+O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos mais comuns que você provavelmente usará com o Terraform. Vamos detalhar o passo a passo da configuração e execução, além de explicar o fluxo de trabalho que envolve escrever código, rodar os comandos `terraform plan` e `terraform apply`.
 
 #### **Passo a Passo: Configuração do Terraform e Criando Recursos Simples na AWS**
 
