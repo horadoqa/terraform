@@ -6,10 +6,10 @@ Vamos colocar a teoria em prática e mostrar como você pode começar a usar o T
 
 Para seguir este tutorial você precisará ter:
 
-- O [Terraform](./video-6-1-terraform.md) instalado.
-- A [AWSCLI](./video-6-2-awscli.md) instalada.
-- A [Conta na AWS](./video-6-3-aws.md) criada.
-- A [Credencial](./video-6-4-awsconfigure.md) configurada.
+- O [Terraform](./video-6-1-terraform.md) instalado. ✅
+- A [AWSCLI](./video-6-2-awscli.md) instalada.❌
+- A [Conta na AWS](./video-6-3-aws.md) criada.❌
+- A [Credencial](./video-6-4-awsconfigure.md) configurada.❌
 
 O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos mais comuns que você provavelmente usará com o Terraform. Vamos detalhar o passo a passo da configuração e execução, além de explicar o fluxo de trabalho que envolve escrever código, rodar os comandos `terraform plan` e `terraform apply`.
 
