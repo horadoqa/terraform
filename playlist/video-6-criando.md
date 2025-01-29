@@ -7,7 +7,7 @@ Vamos colocar a teoria em prática e mostrar como você pode começar a usar o T
 Para seguir este tutorial você precisará ter:
 
 - O [Terraform](./video-6-1-terraform.md) instalado. ✅
-- A [AWSCLI](./video-6-2-awscli.md) instalada.❌
+- A [AWSCLI](./video-6-2-awscli.md) instalada. ✅
 - A [Conta na AWS](./video-6-3-aws.md) criada.❌
 - A [Credencial](./video-6-4-awsconfigure.md) configurada.❌
 
@@ -18,8 +18,17 @@ O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos ma
 1. **Instalação do Terraform**
    
    - Antes de começar, você precisa **instalar o Terraform** em sua máquina. Você pode baixá-lo a partir do [site oficial do Terraform](https://www.terraform.io/downloads.html) e seguir as instruções de instalação para o seu sistema operacional (Windows, macOS, Linux).
+
+2. **Instalando o AWSCLI**
+   O AWS CLI (AWS Command Line Interface) é uma ferramenta de linha de comando que permite interagir com os serviços da Amazon Web Services (AWS) diretamente do terminal ou prompt de comando. Ele é uma interface poderosa para gerenciar e automatizar recursos na nuvem da AWS, simplificando tarefas que normalmente seriam feitas por meio do console web.
    
-2. **Configuração do Terraform**
+3. **Criando conta na AWS**
+
+Cadastre-se na AWS
+
+   https://signin.aws.amazon.com/signup?request_type=register
+
+4. **Configuração do Terraform**
    
    Após a instalação, o primeiro passo é **configurar o Terraform** para interagir com a AWS. Para isso, você precisa garantir que o Terraform tenha as credenciais da AWS para criar e gerenciar recursos.
    
@@ -31,7 +40,7 @@ O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos ma
    ```
    Você precisará fornecer o **Access Key ID** e **Secret Access Key** da sua conta AWS, além da região (ex: `us-east-1`).
 
-3. **Escrevendo o Código Terraform**
+5. **Escrevendo o Código Terraform**
    
    Após a configuração do Terraform e das credenciais, vamos escrever o código que define a infraestrutura que queremos criar. O código será escrito em um arquivo de configuração com a extensão `.tf`.
 
@@ -53,7 +62,7 @@ O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos ma
 
      Salve esse código em um arquivo chamado `main.tf`.
 
-4. **Inicializando o Terraform**
+6. **Inicializando o Terraform**
 
    Após escrever o código, o próximo passo é **inicializar o Terraform**. O comando `terraform init` é utilizado para inicializar o diretório de trabalho do Terraform. Isso irá configurar o ambiente e baixar os plugins necessários para interagir com a AWS (e com outros provedores, se necessário).
 
@@ -61,7 +70,7 @@ O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos ma
    terraform init
    ```
 
-5. **Rodando o Comando `terraform plan`**
+7. **Rodando o Comando `terraform plan`**
 
    O comando `terraform plan` é utilizado para visualizar as ações que o Terraform realizará, comparando a infraestrutura desejada (descrita no código) com o estado atual da infraestrutura. Ele gera um **plano de execução** mostrando o que será criado, modificado ou destruído.
 
@@ -80,7 +89,7 @@ O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos ma
 
    - Isso garante que você saiba o que acontecerá antes de aplicar as mudanças.
 
-6. **Rodando o Comando `terraform apply`**
+8. **Rodando o Comando `terraform apply`**
 
    Após revisar o plano e confirmar que está tudo correto, o próximo passo é rodar o comando `terraform apply`. Esse comando vai **aplicar as mudanças** e provisionar os recursos na AWS.
 
@@ -97,7 +106,7 @@ O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos ma
      aws_instance.example: Creation complete after 20s (id: i-0ab1c234d567e8fgh)
      ```
 
-7. **Verificando a Instância na AWS**
+9. **Verificando a Instância na AWS**
 
    Após o Terraform concluir a criação da instância, você pode ir ao **Console da AWS** e verificar se a instância EC2 foi criada corretamente na região que você especificou (neste exemplo, `us-east-1`).
 
