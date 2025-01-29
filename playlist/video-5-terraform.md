@@ -1,10 +1,6 @@
-- **Vídeo 5: O que é o Terraform e como funciona?**
-  - Introdução ao Terraform: como ele se integra com diferentes provedores de nuvem.
-  - Princípios básicos: arquivos de configuração, providers, recursos, estado.
+### **O que é o Terraform e como funciona?**
 
-### **Vídeo 5: O que é o Terraform e como funciona?**
-
-No quinto vídeo da nossa série, vamos explorar com mais detalhes o **Terraform**, uma das ferramentas mais populares para **Infraestrutura como Código (IaC)**. Aqui, vamos entender o que é o Terraform, como ele funciona e como ele pode ser utilizado para gerenciar recursos em diferentes provedores de nuvem, como AWS, Google Cloud, Azure, entre outros.
+Vamos explorar com mais detalhes o **Terraform**, uma das ferramentas mais populares para **Infraestrutura como Código (IaC)**. Aqui, vamos entender o que é o Terraform, como ele funciona e como ele pode ser utilizado para gerenciar recursos em diferentes provedores de nuvem, como AWS, Google Cloud, Azure, entre outros.
 
 #### **Introdução ao Terraform: Como ele se integra com diferentes provedores de nuvem**
 
