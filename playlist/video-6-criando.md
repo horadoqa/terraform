@@ -36,9 +36,15 @@ Cadastre-se na AWS
    
    Se você ainda não tem as credenciais configuradas, o procedimento mais comum é usar o **AWS CLI** para configurar suas credenciais. Isso pode ser feito com o comando:
    ```bash
-   aws configure
+   aws configure --profile terraform
    ```
    Você precisará fornecer o **Access Key ID** e **Secret Access Key** da sua conta AWS, além da região (ex: `us-east-1`).
+
+   Listar as credenciais
+
+   ```bash
+   cat ~/.aws/credentials
+   ```
 
 5. **Escrevendo o Código Terraform**
    
