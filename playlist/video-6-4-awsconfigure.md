@@ -10,7 +10,7 @@ Antes de rodar o `aws configure`, você precisa ter as credenciais da AWS. Se vo
    - No painel de serviços, pesquise por **IAM** e clique para abrir.
 3. **Crie um usuário IAM (se necessário)**:
    - No menu à esquerda, clique em **Users** e depois em **Add user**.
-   - Escolha um nome de usuário e selecione a permissão (geralmente, você vai querer selecionar as permissões de **Admin** para ter acesso completo aos serviços).
+   - Escolha um nome de usuário e selecione a permissão (geralmente, você vai querer selecionar as permissões de **AmazonEC2FullAccess** e **S3**para ter acesso completo aos serviços).
 4. **Gerar Access Key**:
    - Após criar o usuário, você verá uma seção chamada **Access keys**. Clique em **Create access key**.
    - Salve o **Access Key ID** e o **Secret Access Key** gerados. **Esses dados são sensíveis e não podem ser recuperados novamente**, então guarde-os com segurança.

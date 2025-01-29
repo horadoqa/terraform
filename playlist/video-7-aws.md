@@ -19,7 +19,7 @@ No sétimo vídeo da nossa série, vamos aprender a criar recursos mais complexo
      }
 
      resource "aws_instance" "example" {
-       ami           = "ami-0c55b159cbfafe1f0"  # ID da AMI
+       ami           = "ami-0c614dee691cbbf37"  # ID da AMI
        instance_type = "t2.micro"              # Tipo de instância
      }
      ```
@@ -104,7 +104,7 @@ No sétimo vídeo da nossa série, vamos aprender a criar recursos mais complexo
        }
        ```
 
-     Nesse exemplo, criamos um módulo **ec2_instance** que pode ser reutilizado em diferentes projetos. O código principal faz referência ao módulo, passando as variáveis necessárias (como `ami` e `instance_type`).
+     Nesse exemplo, criamos um módulo **ec2_instance** e **AmazonS3FullAccess**que pode ser reutilizado em diferentes projetos. O código principal faz referência ao módulo, passando as variáveis necessárias (como `ami` e `instance_type`).
 
 2. **Variáveis**
 
