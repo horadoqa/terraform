@@ -26,7 +26,10 @@ O exemplo será a criação de uma **instância EC2 na AWS**, um dos recursos ma
 
 Cadastre-se na AWS
 
-   https://signin.aws.amazon.com/signup?request_type=register
+Tenha experiência prática e gratuita com produtos e serviços da AWS
+
+   [Nível gratuito da AWS](https://aws.amazon.com/pt/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
+
 
 4. **Configuração do Terraform**
    
@@ -35,16 +38,39 @@ Cadastre-se na AWS
    - **Credenciais da AWS**: Você pode configurar as credenciais AWS utilizando o **AWS CLI** ou manualmente criando um arquivo de credenciais. O Terraform irá usar essas credenciais para se conectar à AWS.
    
    Se você ainda não tem as credenciais configuradas, o procedimento mais comum é usar o **AWS CLI** para configurar suas credenciais. Isso pode ser feito com o comando:
+   
    ```bash
-   aws configure --profile terraform
+   aws configure
    ```
-   Você precisará fornecer o **Access Key ID** e **Secret Access Key** da sua conta AWS, além da região (ex: `us-east-1`).
+   Você precisará fornecer:
+   - O **Access Key ID**:
+   - O **Secret Access Key**:
+   - A região [us-east-1]:
+   - O formato [json]:
 
    Listar as credenciais
 
    ```bash
    cat ~/.aws/credentials
    ```
+
+   Listar os Buckets
+
+   ```bash
+   aws s3 ls
+   ```
+
+   Verificar as permissões do usuário via AWS CLI:
+
+   ```bash
+   aws iam list-attached-user-policies
+   ```
+   
+   Verificar a lista de grupos
+   
+   ```bash
+   aws iam list-groups-for-user
+   ````
 
 5. **Escrevendo o Código Terraform**
    
