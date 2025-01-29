@@ -1,10 +1,6 @@
-- **Vídeo 4: Ferramentas Comuns de IaC**
-  - Visão geral de ferramentas populares: Terraform, Ansible, Puppet, Chef.
-  - Foco no **Terraform** como uma das principais ferramentas de IaC.
+### **Ferramentas Comuns de IaC**
 
-### **Vídeo 4: Ferramentas Comuns de IaC**
-
-No quarto vídeo da série, vamos explorar as **ferramentas mais populares de Infraestrutura como Código (IaC)** que permitem automatizar o provisionamento e a gestão da infraestrutura de forma eficiente. Estas ferramentas são fundamentais para os processos modernos de DevOps, ajudando as equipes a provisionar e gerenciar recursos em nuvem de maneira rápida, escalável e repetível.
+Vamos explorar as **ferramentas mais populares de Infraestrutura como Código (IaC)** que permitem automatizar o provisionamento e a gestão da infraestrutura de forma eficiente. Estas ferramentas são fundamentais para os processos modernos de DevOps, ajudando as equipes a provisionar e gerenciar recursos em nuvem de maneira rápida, escalável e repetível.
 
 #### **Visão Geral de Ferramentas Populares de IaC:**
 
