@@ -48,6 +48,12 @@ Depois de configurar o AWS CLI, você pode verificar se as configurações estã
 aws sts get-caller-identity
 ```
 
+Listar os Buckets
+
+   ```bash
+   aws s3 ls
+   ```
+
 Se tudo estiver configurado corretamente, você verá um retorno com seu **User ID** e **ARN** de usuário.
 
 ### Passo 4: Alterar a configuração (se necessário)

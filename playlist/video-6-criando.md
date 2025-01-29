@@ -60,18 +60,6 @@ Tenha experiência prática e gratuita com produtos e serviços da AWS
    aws s3 ls
    ```
 
-   Verificar as permissões do usuário via AWS CLI:
-
-   ```bash
-   aws iam list-attached-user-policies
-   ```
-   
-   Verificar a lista de grupos
-   
-   ```bash
-   aws iam list-groups-for-user
-   ````
-
 5. **Escrevendo o Código Terraform**
    
    Após a configuração do Terraform e das credenciais, vamos escrever o código que define a infraestrutura que queremos criar. O código será escrito em um arquivo de configuração com a extensão `.tf`.
