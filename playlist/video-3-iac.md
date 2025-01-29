@@ -1,10 +1,10 @@
 #### **2. Introdução à Infraestrutura como Código (IaC)**
-- **Vídeo 3: O que é Infraestrutura como Código?**
+- **O que é Infraestrutura como Código?**
   - Definição de IaC e sua importância.
   - Diferença entre IaC e automação de infraestrutura.
   - Benefícios do IaC: versionamento, consistência, repetibilidade.
 
-### **Vídeo 3: O que é Infraestrutura como Código?**
+### **O que é Infraestrutura como Código?**
 
 #### **Definição de IaC e Sua Importância**
 
@@ -48,7 +48,7 @@ Embora ambos os conceitos envolvam a automação do gerenciamento da infraestrut
    - Com o IaC, a criação e configuração de infraestrutura se tornam **repetíveis** e previsíveis. Uma vez que a infraestrutura é descrita como código, ela pode ser **recriada** de maneira idêntica, quantas vezes forem necessárias. Isso é fundamental para a escalabilidade e para a implementação de **práticas DevOps**.
    - **Exemplo**: Suponha que você queira criar um novo ambiente de produção para um cliente. Com IaC, você pode rodar o mesmo código que foi usado para criar o ambiente anterior e ter a mesma infraestrutura criada automaticamente.
 
-### **Resumo do Vídeo 3: O que é Infraestrutura como Código?**
+### **Resumo: O que é Infraestrutura como Código?**
 
 - **Infraestrutura como Código (IaC)** é uma abordagem onde a infraestrutura é gerida por meio de código, permitindo automação, versionamento e reprodução fácil.
 - **Diferença entre IaC e automação de infraestrutura**: Enquanto IaC trata a infraestrutura como código declarativo e versionado, a automação de infraestrutura envolve scripts ou ferramentas para tarefas repetitivas, sem garantir a mesma consistência ou reusabilidade.
